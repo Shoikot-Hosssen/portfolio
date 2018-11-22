@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #EAEDED;
+	font-family: arial, arial-black, "sans-sarif";
+}
+.thead {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 10px;
+}
+.navbar {
+	box-shadow: 0 5px 20px #343A40;
+}
+#skew {
+	border-width: 0 0 100px 1349px;
+	border-color: transparent transparent #EAEDED transparent;
+	border-style: solid;
+	position:  absolute;
+	left: 0;
+	bottom: 0;
+}
+.carousel-indicators li {
+	margin-top: -75px;
+}
+.container {
+	margin-top: 30px;
+}
+.welcomeCardHeader {
+	color: orangered;
+	border-bottom: 2px dashed orangered;
+	text-shadow: 3px 2px orange;
+}
+.welcomeCardTitle {
+	color: orangered;
+}
+.welcomeCardText {
+	color: orange;
+}
+.shw {
+	height: 230px;
+} 
+.mainFooter {
+	width: 100%;
+	height: 60px;
+	background-color: #343A40;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+}
+.mainFooter a {
+	text-decoration: none;
+	color: orangered;
+}
