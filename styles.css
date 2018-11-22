@@ -28,7 +28,7 @@ body {
 .carousel-indicators li {
 	margin-top: -75px;
 }
-.container {
+.container, .container-fluid {
 	margin-top: 30px;
 }
 .welcomeCardHeader {
@@ -45,7 +45,28 @@ body {
 .shw {
 	height: 230px;
 } 
+.btt {
+	width: 100px;
+	height: 20px;
+	display: block;
+	float: right;
+	margin-top: -58px;
+}
+.btt a {
+	text-decoration: none;
+	color: #010152;
+	cursor: pointer;
+	border: 2px solid #010152;
+	background-color: transparent;
+	padding: 5px;
+	border-radius: 3px;
+}
+.btt:hover {
+	transform: rotate(-380deg);
+	transition: 0.5s;
+}
 .mainFooter {
+	margin-top: 30px;
 	width: 100%;
 	height: 60px;
 	background-color: #343A40;
